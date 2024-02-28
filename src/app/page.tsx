@@ -63,8 +63,8 @@ export default function Auth() {
         placeholder="password"
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button className="py-1 px-5 w-fit text-center text-blue-800 bg-blue-400 rounded-md m-2 items-center mx-auto" onClick={SignIn}>{loading ? "Signing In..." : "Sign In"}</button>
-      <span className="flex">Do you have a Google account?<button className=" font-bold text-blue-500 hover:text-green-500 pl-2" onClick={SignInWithGoogle}> Sign with google</button>
+      <button className="py-1 px-5 w-fit text-center text-blue-800 bg-blue-400 rounded-md m-2 items-center mx-auto mb-6" onClick={SignIn}>{loading ? "Signing In..." : "Sign In"}</button>
+      <span className="flex">Do you have a Google account?<button className="font-bold text-blue-500 hover:text-green-500 pl-2" onClick={SignInWithGoogle}> Sign with google</button>
       </span>
       
     </div>
